@@ -1,0 +1,804 @@
+{
+  "title": "CodePulse — 教學內容",
+  "aspect": "CONTENT",
+  "label": "教學內容",
+  "words": [
+    {
+      "word": "看不懂",
+      "font_size": 5,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 5
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 37,
+              "end": 40
+            }
+          ]
+        },
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 25,
+              "end": 27
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 37,
+              "end": 40
+            }
+          ]
+        },
+        {
+          "text": "整體介面清楚好懂，答案解析也非常好懂，題目有點看不懂",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 23,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "text": "好多程式，看不懂，程式加中文解釋",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 5,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "好多程式，看不懂，程式加中文解釋",
+          "aspect_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 5,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "程式",
+      "font_size": 4,
+      "color": "rgb(121,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 3,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "好多程式，看不懂，程式加中文解釋",
+          "aspect_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 5,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 36,
+              "end": 38
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 30,
+              "end": 32
+            }
+          ]
+        },
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 36,
+              "end": 38
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 33,
+              "end": 35
+            }
+          ]
+        },
+        {
+          "text": "直觀地追蹤程式執行過程",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "清楚",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 14
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "很清楚 有比無好，中文版本",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "模式",
+      "font_size": 2,
+      "color": "rgb(183,182,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 25,
+              "end": 27
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 21
+            }
+          ]
+        },
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 25,
+              "end": 27
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 37,
+              "end": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "好",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "他逐行帶著你看，不會讓思緒錯亂，也更好學習程式碼的作用與涵義",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 18,
+              "end": 19
+            }
+          ]
+        },
+        {
+          "text": "很清楚 有比無好，中文版本",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "詳解解釋",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 14
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "容易",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 25,
+              "end": 27
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "理解",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "對程式有非常多的理解，這個平台很棒，是我自己太爛了",
+          "aspect_spans": [
+            {
+              "start": 8,
+              "end": 10
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 6,
+              "end": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "多",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "對程式有非常多的理解，這個平台很棒，是我自己太爛了",
+          "aspect_spans": [
+            {
+              "start": 8,
+              "end": 10
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 6,
+              "end": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不會繁瑣",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用起來不會很繁瑣",
+          "aspect_spans": [],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "講解",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
+          "aspect_spans": [
+            {
+              "start": 39,
+              "end": 41
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 37,
+              "end": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "細",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
+          "aspect_spans": [
+            {
+              "start": 39,
+              "end": 41
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 37,
+              "end": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "單調",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "很新奇，有點太單調",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "程式摘要",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "有程式摘要生成，感覺可以來點新手教學",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 5
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "簡單",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 36,
+              "end": 38
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 30,
+              "end": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "基礎",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 36,
+              "end": 38
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 33,
+              "end": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "思緒",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "他逐行帶著你看，不會讓思緒錯亂，也更好學習程式碼的作用與涵義",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "錯亂",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "他逐行帶著你看，不會讓思緒錯亂，也更好學習程式碼的作用與涵義",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "課程",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "讓艱深難懂的題目變得容易理解，很不錯！，推出學習課程",
+          "aspect_spans": [
+            {
+              "start": 24,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不錯",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "讓艱深難懂的題目變得容易理解，很不錯！，推出學習課程",
+          "aspect_spans": [
+            {
+              "start": 24,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "虛擬碼",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "有虛擬碼加上實際程式碼對照可以學習，可以自行更改程式碼或是提供程式碼練習加上動畫",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 4
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "時間",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 24,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "即時",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 24,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "版本",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "很清楚 有比無好，中文版本",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "時間複雜度",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "逐步動畫演示，第一關教學時沒有時間複雜度的講解",
+          "aspect_spans": [
+            {
+              "start": 15,
+              "end": 20
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "直觀",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "直觀地追蹤程式執行過程",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

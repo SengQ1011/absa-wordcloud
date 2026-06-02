@@ -1,0 +1,553 @@
+{
+  "title": "CodePulse — 動畫演示",
+  "aspect": "ANIMATION",
+  "label": "動畫演示",
+  "words": [
+    {
+      "word": "動畫",
+      "font_size": 4,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 4,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "動畫優質，操作直觀點，有些東西藏好深哦",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "動畫優質，操作直觀點，有些東西藏好深哦",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 17,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 9,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "快速",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "可以快速找到進度，中文翻譯",
+          "aspect_spans": [
+            {
+              "start": 6,
+              "end": 8
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "非常清楚，利用圖片快速了解",
+          "aspect_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 9,
+              "end": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "圖片",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "非常清楚，利用圖片快速了解",
+          "aspect_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "非常清楚，利用圖片快速了解",
+          "aspect_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 9,
+              "end": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不知道",
+      "font_size": 2,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 2
+      },
+      "reviews": [
+        {
+          "text": "視覺化的圖表和動畫，剛打開平台時，有點不知道該從哪裡開始",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 22
+            }
+          ]
+        },
+        {
+          "text": "視覺化的圖表和動畫，剛打開平台時，有點不知道該從哪裡開始",
+          "aspect_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "迅速",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "迅速",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "進度",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "可以快速找到進度，中文翻譯",
+          "aspect_spans": [
+            {
+              "start": 6,
+              "end": 8
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "優質",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "動畫優質，操作直觀點，有些東西藏好深哦",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "深",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "動畫優質，操作直觀點，有些東西藏好深哦",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 17,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "動畫演示",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "有動畫演示，只理解到演算法之執行 測驗時不知道某些內容 類似：0（1）",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 5
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "清楚",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "非常清楚，利用圖片快速了解",
+          "aspect_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "視覺化",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "可視覺化",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 1,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "牛逼",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "視覺化牛逼，我要monkey sort",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 3,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不好",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 105,
+              "end": 108
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "特別",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 9,
+              "end": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "有趣",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "想法",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 82,
+              "end": 84
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 79,
+              "end": 81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不錯",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 82,
+              "end": 84
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 79,
+              "end": 81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "平台",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "視覺化的圖表和動畫，剛打開平台時，有點不知道該從哪裡開始",
+          "aspect_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 22
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

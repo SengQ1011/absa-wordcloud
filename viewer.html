@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>CodePulse 文字雲檢視器</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+  :root {
+    --bg: #f0f2f5;
+    --fg: #333;
+    --card: #fff;
+    --shd: rgba(0,0,0,.12);
+    --tab-active: #4f6ef7;
+    --tab-border: #d0d5e0;
+  }
+  html.dark {
+    --bg: #0f1117;
+    --fg: #dde1f0;
+    --card: #1a1d27;
+    --shd: rgba(0,0,0,.5);
+    --tab-active: #6b84f8;
+    --tab-border: #2d3145;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "DFKai-SB", "標楷體", sans-serif;
+    transition: background .25s, color .25s;
+    min-height: 100vh;
+  }
+
+  /* ── header ── */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--tab-border);
+    background: var(--card);
+    box-shadow: 0 1px 6px var(--shd);
+  }
+  header h1 { font-size: 16px; letter-spacing: .04em; }
+  #toggle {
+    background: none;
+    border: 1.5px solid var(--fg);
+    color: var(--fg);
+    border-radius: 20px;
+    padding: 5px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: inherit;
+    opacity: .75;
+    transition: opacity .15s, border-color .25s, color .25s;
+  }
+  #toggle:hover { opacity: 1; }
+
+  /* ── track switcher ── */
+  #track-switcher {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  .track-btn {
+    background: none;
+    border: 1.5px solid var(--tab-border);
+    color: var(--fg);
+    border-radius: 16px;
+    padding: 4px 14px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: inherit;
+    opacity: .6;
+    transition: opacity .15s, background .15s, border-color .2s;
+  }
+  .track-btn:hover { opacity: .9; }
+  .track-btn.active {
+    background: var(--tab-active);
+    border-color: var(--tab-active);
+    color: #fff;
+    opacity: 1;
+    font-weight: 700;
+  }
+
+  /* ── tabs ── */
+  nav {
+    display: flex;
+    gap: 0;
+    padding: 20px 24px 0;
+    border-bottom: 2px solid var(--tab-border);
+  }
+  .tab {
+    padding: 8px 22px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--fg);
+    opacity: .6;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: opacity .15s, border-color .2s;
+    user-select: none;
+  }
+  .tab:hover { opacity: .85; }
+  .tab.active { opacity: 1; border-color: var(--tab-active); font-weight: 700; }
+
+  /* ── main content ── */
+  main { padding: 28px 24px; }
+  #title {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 18px;
+    min-height: 1.4em;
+  }
+
+  /* ── bubble wrap ── */
+  #bubble-wrap { display: flex; justify-content: center; }
+  #bubble-svg {
+    border-radius: 12px;
+    background: var(--card);
+    box-shadow: 0 2px 16px var(--shd);
+    transition: background .25s;
+  }
+  .bubble { cursor: pointer; }
+
+  /* ── loading / error states ── */
+  #status {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 15px;
+    opacity: .6;
+  }
+
+  /* ── tooltip ── */
+  #tip {
+    position: fixed;
+    display: none;
+    z-index: 9999;
+    background: rgba(20,22,30,.93);
+    color: #f5f5f5;
+    padding: 12px 16px;
+    border-radius: 10px;
+    max-width: 400px;
+    line-height: 1.75;
+    box-shadow: 0 6px 20px rgba(0,0,0,.4);
+    pointer-events: none;
+    font-size: 15px;
+  }
+  .tt-title {
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+  }
+  .tt-topic {
+    font-size: 12px;
+    color: #b0b8d0;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255,255,255,.12);
+    letter-spacing: .03em;
+  }
+  .tt-review {
+    margin: 6px 0;
+    padding-left: 10px;
+    border-left: 3px solid rgba(255,255,255,.3);
+  }
+  .tt-footer { color: #aaa; font-size: 11px; margin-top: 9px; }
+  .tt-type {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin-left: 7px;
+    vertical-align: middle;
+    letter-spacing: .04em;
+  }
+  .tt-type-aspect  { background: rgba(255,140,66,.25); color: #ff8c42; }
+  .tt-type-opinion { background: rgba(255,209,102,.2); color: #ffd166; }
+  .tt-legend {
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px solid rgba(255,255,255,.1);
+    font-size: 11px;
+    color: #aaa;
+    letter-spacing: .02em;
+  }
+  .hl-aspect  { color: #ff8c42; font-weight: 700; }
+  .hl-opinion { color: #ffd166; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CodePulse 文字雲檢視器</h1>
+  <div id="track-switcher">
+    <button class="track-btn active" data-track="a">Track A（Rule-Based）</button>
+    <button class="track-btn"       data-track="b">Track B（Gemini）</button>
+  </div>
+  <button id="toggle">☾ 暗色</button>
+</header>
+
+<nav>
+  <div class="tab active" data-key="ui_ux">介面與體驗</div>
+  <div class="tab" data-key="animation">動畫演示</div>
+  <div class="tab" data-key="content">教學內容</div>
+  <div class="tab" data-key="quiz">測驗系統</div>
+  <div class="tab" data-key="performance">系統效能</div>
+  <div class="tab" data-key="gamification">遊戲化互動</div>
+</nav>
+
+<main>
+  <div id="title"></div>
+  <div id="status">載入中…</div>
+  <div id="bubble-wrap" style="display:none">
+    <svg id="bubble-svg"></svg>
+  </div>
+</main>
+
+<div id="tip"></div>
+
+<script>
+const tip  = document.getElementById("tip");
+const btn  = document.getElementById("toggle");
+const root = document.documentElement;
+
+// ── dark mode ────────────────────────────────────────────────
+function applyMode(dark) {
+  root.classList.toggle("dark", dark);
+  btn.textContent = dark ? "☀ 亮色" : "☾ 暗色";
+  try { localStorage.setItem("wc-theme", dark ? "dark" : "light"); } catch (_) {}
+}
+try { applyMode(localStorage.getItem("wc-theme") === "dark"); } catch (_) {}
+btn.addEventListener("click", () => applyMode(!root.classList.contains("dark")));
+
+// ── tooltip helpers ───────────────────────────────────────────
+function escHtml(s) {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function highlightSpans(text, aspectSpans, opinionSpans) {
+  const marks = [
+    ...(aspectSpans  || []).map(s => ({ ...s, cls: "hl-aspect"  })),
+    ...(opinionSpans || []).map(s => ({ ...s, cls: "hl-opinion" })),
+  ].sort((a, b) => a.start - b.start);
+
+  let result = "", pos = 0;
+  for (const { start, end, cls } of marks) {
+    if (start < pos) continue;
+    if (start > pos) result += escHtml(text.slice(pos, start));
+    result += `<span class="${cls}">${escHtml(text.slice(start, end))}</span>`;
+    pos = end;
+  }
+  if (pos < text.length) result += escHtml(text.slice(pos));
+  return result;
+}
+
+function pick(reviews) {
+  if (reviews.length <= 3) return { shown: reviews, total: reviews.length };
+  const sh = [...reviews].sort(() => Math.random() - .5).slice(0, 3);
+  return { shown: sh, total: reviews.length };
+}
+
+function showTip(e, word, reviews, wordSent, termType) {
+  const { shown, total } = pick(reviews || []);
+
+  const typeLabel = termType === "aspect"  ? "評論對象" :
+                    termType === "opinion" ? "評論詞"   : "";
+  const typeCls   = termType === "aspect"  ? "tt-type-aspect" :
+                    termType === "opinion" ? "tt-type-opinion" : "";
+  const typeBadge = typeLabel
+    ? `<span class="tt-type ${typeCls}">${typeLabel}</span>`
+    : "";
+
+  let html = `<div class="tt-title">${escHtml(word)}${typeBadge}</div>`;
+
+  if (wordSent) {
+    const pos = wordSent.pos ?? 0, neg = wordSent.neg ?? 0;
+    if (pos > 0 || neg > 0) {
+      const icon = pos > neg ? "✅" : neg > pos ? "❌" : "◎";
+      html += `<div class="tt-topic">${icon} 正面 ${pos} 次 ／ 負面 ${neg} 次</div>`;
+    }
+  }
+
+  if (shown.length) {
+    html += shown.map(r => {
+      if (typeof r === "string")
+        return `<div class="tt-review">${escHtml(r.length > 90 ? r.slice(0, 90) + "…" : r)}</div>`;
+      return `<div class="tt-review">${highlightSpans(r.text, r.aspect_spans, r.opinion_spans)}</div>`;
+    }).join("");
+    html += total > 3
+      ? `<div class="tt-footer">共 ${total} 筆，隨機顯示 3 筆（離開後再 hover 重新抽）</div>`
+      : `<div class="tt-footer">共 ${total} 筆評論</div>`;
+  }
+
+  html += `<div class="tt-legend">` +
+    `<span class="hl-aspect">■</span> 橙色＝評論對象（Aspect）　` +
+    `<span class="hl-opinion">■</span> 黃色＝評論詞（Opinion）` +
+    `</div>`;
+
+  tip.innerHTML = html;
+  tip.style.display = "block";
+  moveTip(e);
+}
+
+function moveTip(e) {
+  if (tip.style.display === "none") return;
+  const TW = 400, TH = tip.offsetHeight;
+  let lx = e.clientX + 18, ly = e.clientY - 12;
+  if (lx + TW > window.innerWidth)  lx = e.clientX - TW - 12;
+  if (ly + TH > window.innerHeight) ly = window.innerHeight - TH - 8;
+  tip.style.left = lx + "px";
+  tip.style.top  = ly + "px";
+}
+
+// ── D3 force bubble render ────────────────────────────────────
+let currentSim = null;
+
+function renderData(data) {
+  const { title, words, topics = [] } = data;
+
+  document.getElementById("title").textContent = title;
+
+  if (currentSim) { currentSim.stop(); currentSim = null; }
+
+  const wrap = document.getElementById("bubble-wrap");
+  const W = Math.min(wrap.clientWidth || 900, 960);
+  const H = Math.round(W * 0.68);
+
+  const svg = d3.select("#bubble-svg")
+    .attr("width", W)
+    .attr("height", H);
+  svg.selectAll("*").remove();
+
+  const topicMap = {};
+
+  const fsExtent = d3.extent(words, d => d.font_size);
+  const rScale = d3.scaleSqrt().domain(fsExtent).range([36, 72]);
+
+  const nodes = words.map(d => ({
+    ...d,
+    r: rScale(d.font_size),
+    x: W / 2 + (Math.random() - 0.5) * W * 0.25,
+    y: H / 2 + (Math.random() - 0.5) * H * 0.25,
+  }));
+
+  const sim = d3.forceSimulation(nodes)
+    .force("center", d3.forceCenter(W / 2, H / 2).strength(0.3))
+    .force("collide", d3.forceCollide(d => d.r + 3).iterations(4))
+    .force("charge", d3.forceManyBody().strength(-20))
+    .force("x", d3.forceX(W / 2).strength(0.05))
+    .force("y", d3.forceY(H / 2).strength(0.05))
+    .alphaDecay(0.016);
+  currentSim = sim;
+
+  const bubbles = svg.selectAll(".bubble")
+    .data(nodes).enter()
+    .append("g")
+    .attr("class", "bubble")
+    .call(
+      d3.drag()
+        .on("start", (ev, d) => {
+          if (!ev.active) sim.alphaTarget(0.3).restart();
+          d.fx = d.x; d.fy = d.y;
+        })
+        .on("drag",  (ev, d) => { d.fx = ev.x; d.fy = ev.y; if (tip.style.display !== "none") moveTip(ev.sourceEvent); })
+        .on("end",   (ev, d) => {
+          if (!ev.active) sim.alphaTarget(0);
+          d.fx = null; d.fy = null;
+        })
+    );
+
+  bubbles.append("circle")
+    .attr("r", d => d.r)
+    .attr("fill", d => d.color)
+    .attr("fill-opacity", 0.78)
+    .attr("stroke", d => d.color)
+    .attr("stroke-width", 1.5);
+
+  bubbles.each(function(d) {
+    const g  = d3.select(this);
+    const r  = d.r;
+    // 90% of diameter as safe bounding box inside the circle
+    const safeW = r * 1.8;
+    const safeH = r * 1.8;
+
+    // Estimate rendered pixel width: CJK chars ≈ 1em, Latin ≈ 0.62em
+    function estW(str, fs) {
+      const cjk = (str.match(/[　-鿿＀-￯]/g) || []).length;
+      return (cjk + (str.length - cjk) * 0.62) * fs;
+    }
+
+    // Greedy word-wrap: split words into lines that fit within safeW
+    function wrapLines(words, fs) {
+      const lines = [];
+      let cur = "";
+      for (const w of words) {
+        const test = cur ? `${cur} ${w}` : w;
+        if (estW(test, fs) <= safeW) { cur = test; }
+        else { if (cur) lines.push(cur); cur = w; }
+      }
+      if (cur) lines.push(cur);
+      return lines;
+    }
+
+    const parts = d.word.split(/\s+/).filter(Boolean);
+
+    if (parts.length <= 1) {
+      // Single word: derive font size so estimated width ≤ safeW
+      const cjk = (d.word.match(/[　-鿿＀-￯]/g) || []).length;
+      const wPerFs = cjk + (d.word.length - cjk) * 0.62;
+      const fs = Math.max(8, Math.min(r * 0.55, safeW / wPerFs));
+
+      const textEl = g.append("text")
+        .text(d.word)
+        .attr("text-anchor", "middle")
+        .attr("dominant-baseline", "middle")
+        .attr("font-size", fs)
+        .attr("fill", "#fff")
+        .attr("font-weight", "600")
+        .attr("pointer-events", "none")
+        .attr("font-family", '"DFKai-SB","標楷體",sans-serif');
+
+      // getBBox safety-net: shrink further if the browser renders wider
+      try {
+        const bw = textEl.node().getBBox().width;
+        if (bw > safeW) textEl.attr("font-size", fs * safeW / bw);
+      } catch (_) {}
+
+    } else {
+      // Multi-word: greedy wrap, then scale down if total height overflows
+      let fs    = Math.min(r * 0.55, 100);
+      let lines = wrapLines(parts, fs);
+      const lhOf = (f) => f * 1.28;
+      let totalH = lines.length * lhOf(fs);
+
+      if (totalH > safeH) {
+        fs     = Math.max(8, fs * (safeH / totalH));
+        lines  = wrapLines(parts, fs);
+        totalH = lines.length * lhOf(fs);
+      }
+
+      const lh    = lhOf(fs);
+      const startY = -((lines.length - 1) * lh) / 2;
+      const text  = g.append("text")
+        .attr("text-anchor", "middle")
+        .attr("font-size", fs)
+        .attr("fill", "#fff")
+        .attr("font-weight", "600")
+        .attr("pointer-events", "none")
+        .attr("font-family", '"DFKai-SB","標楷體",sans-serif');
+
+      lines.forEach((line, i) =>
+        text.append("tspan")
+          .attr("x", 0)
+          .attr("y", startY + i * lh)
+          .attr("dominant-baseline", "middle")
+          .text(line)
+      );
+    }
+  });
+
+  sim.on("tick", () => {
+    bubbles.attr("transform", d => {
+      d.x = Math.max(d.r + 1, Math.min(W - d.r - 1, d.x));
+      d.y = Math.max(d.r + 1, Math.min(H - d.r - 1, d.y));
+      return `translate(${d.x},${d.y})`;
+    });
+  });
+
+  bubbles
+    .on("mouseenter", (ev, d) => {
+      bubbles.select("circle").attr("fill-opacity", 0.18);
+      bubbles.select("text").attr("opacity", 0.2);
+      d3.select(ev.currentTarget).select("circle").attr("fill-opacity", 0.95);
+      d3.select(ev.currentTarget).select("text").attr("opacity", 1);
+      showTip(ev, d.word, d.reviews, d.word_sentiment, d.term_type);
+    })
+    .on("mousemove", moveTip)
+    .on("mouseleave", () => {
+      bubbles.select("circle").attr("fill-opacity", 0.78);
+      bubbles.select("text").attr("opacity", 1);
+      tip.style.display = "none";
+    });
+
+  document.getElementById("status").style.display = "none";
+  wrap.style.display = "flex";
+}
+
+// ── load JSON ─────────────────────────────────────────────────
+async function load(src) {
+  const status     = document.getElementById("status");
+  const bubbleWrap = document.getElementById("bubble-wrap");
+
+  status.textContent       = "載入中…";
+  status.style.display     = "block";
+  bubbleWrap.style.display = "none";
+  tip.style.display        = "none";
+
+  try {
+    const res = await fetch(src);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    renderData(data);
+  } catch (err) {
+    status.textContent = `無法載入 ${src}：${err.message}`;
+    console.error(err);
+  }
+}
+
+// ── track switcher ───────────────────────────────────────────
+const FILE_MAP = {
+  a: { ui_ux: "ui_ux_data.json", animation: "animation_data.json",
+       content: "content_data.json", quiz: "quiz_data.json",
+       performance: "performance_data.json", gamification: "gamification_data.json" },
+  b: { ui_ux: "ui_ux_data_b.json", animation: "animation_data_b.json",
+       content: "content_data_b.json", quiz: "quiz_data_b.json",
+       performance: "performance_data_b.json", gamification: "gamification_data_b.json" },
+};
+
+let currentTrack = "a";
+
+function srcForTab(tab) {
+  return FILE_MAP[currentTrack][tab.dataset.key];
+}
+
+document.querySelectorAll(".track-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    if (btn.dataset.track === currentTrack) return;
+    currentTrack = btn.dataset.track;
+    document.querySelectorAll(".track-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    loadActive();
+  });
+});
+
+// ── tabs ──────────────────────────────────────────────────────
+function loadActive() {
+  const tab = document.querySelector(".tab.active");
+  load(srcForTab(tab));
+}
+
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    loadActive();
+  });
+});
+
+loadActive();
+</script>
+</body>
+</html>

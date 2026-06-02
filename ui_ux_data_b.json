@@ -1,0 +1,1235 @@
+{
+  "title": "CodePulse — 介面與體驗",
+  "aspect": "UI_UX",
+  "label": "介面與體驗",
+  "words": [
+    {
+      "word": "介面",
+      "font_size": 6,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 6,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "整體介面清楚好懂，答案解析也非常好懂，題目有點看不懂",
+          "aspect_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "使用簡單 介面輕易理解",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "text": "介面乾淨不會複雜",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "介面乾淨不會複雜",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "介面的設計很棒",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 6,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "介面好看，有些功能不太明顯",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不太明確",
+      "font_size": 2,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 2
+      },
+      "reviews": [
+        {
+          "text": "錯誤檢測讓人能迅速發現錯誤，新手教學指引有點不太明確 玩到後面才看懂一些",
+          "aspect_spans": [
+            {
+              "start": 14,
+              "end": 20
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 22,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "text": "錯誤檢測讓我更清楚知道我自己不擅長的部分，指引有一點點不太明確",
+          "aspect_spans": [
+            {
+              "start": 21,
+              "end": 23
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 27,
+              "end": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "圖表",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 12
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "text": "視覺化的圖表和動畫，剛打開平台時，有點不知道該從哪裡開始",
+          "aspect_spans": [
+            {
+              "start": 4,
+              "end": 6
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "好看",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 12
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 13,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "text": "介面好看，有些功能不太明顯",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "乾淨",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "介面乾淨不會複雜",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "畫面很乾淨，找的到想找的學習資料",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 3,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "單調",
+      "font_size": 2,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 2
+      },
+      "reviews": [
+        {
+          "text": "很新奇，有點太單調",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "使用便利，畫面太單調了可以有發展空間",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 8,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "使用",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "使用順暢 功能齊全，寫考卷可能會有答案是對的但成績出來是錯的",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "使用便利，畫面太單調了可以有發展空間",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "功能",
+      "font_size": 2,
+      "color": "rgb(183,182,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "使用順暢 功能齊全，寫考卷可能會有答案是對的但成績出來是錯的",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "介面好看，有些功能不太明顯",
+          "aspect_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 9,
+              "end": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "畫面",
+      "font_size": 2,
+      "color": "rgb(183,182,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "使用便利，畫面太單調了可以有發展空間",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 8,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "text": "畫面很乾淨，找的到想找的學習資料",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 3,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "融為一體",
+      "font_size": 2,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 2
+      },
+      "reviews": [
+        {
+          "text": "視覺化呈現，Ui 有些按鈕和背景融為一體了",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 20
+            }
+          ]
+        },
+        {
+          "text": "視覺化呈現，Ui 有些按鈕和背景融為一體了",
+          "aspect_spans": [
+            {
+              "start": 14,
+              "end": 16
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "進度",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "可以快速找到進度，中文翻譯",
+          "aspect_spans": [
+            {
+              "start": 6,
+              "end": 8
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "快速找到",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "可以快速找到進度，中文翻譯",
+          "aspect_spans": [
+            {
+              "start": 6,
+              "end": 8
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "新手教學指引",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "錯誤檢測讓人能迅速發現錯誤，新手教學指引有點不太明確 玩到後面才看懂一些",
+          "aspect_spans": [
+            {
+              "start": 14,
+              "end": 20
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 22,
+              "end": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "清楚好懂",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "整體介面清楚好懂，答案解析也非常好懂，題目有點看不懂",
+          "aspect_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "操作",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "動畫優質，操作直觀點，有些東西藏好深哦",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "直觀",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "動畫優質，操作直觀點，有些東西藏好深哦",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "藏好深",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "動畫優質，操作直觀點，有些東西藏好深哦",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 15,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "指引",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "錯誤檢測讓我更清楚知道我自己不擅長的部分，指引有一點點不太明確",
+          "aspect_spans": [
+            {
+              "start": 21,
+              "end": 23
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 27,
+              "end": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不會很繁瑣",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用起來不會很繁瑣",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 3,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "使用簡單",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "使用簡單 介面輕易理解",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "輕易理解",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "使用簡單 介面輕易理解",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "簡單明瞭",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不會複雜",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "介面乾淨不會複雜",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "棒",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "介面的設計很棒",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 6,
+              "end": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "順暢",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "使用順暢 功能齊全，寫考卷可能會有答案是對的但成績出來是錯的",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "齊全",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "使用順暢 功能齊全，寫考卷可能會有答案是對的但成績出來是錯的",
+          "aspect_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "便利",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "使用便利，畫面太單調了可以有發展空間",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不太明顯",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "介面好看，有些功能不太明顯",
+          "aspect_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 9,
+              "end": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "操作欄",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "執行動畫可以讓人知道各個資料結構如何操作，下方操作欄可以在教學時提醒如何使用 然後各部分提示應該不需要每次都提醒",
+          "aspect_spans": [
+            {
+              "start": 23,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 32,
+              "end": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "提醒如何使用",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "執行動畫可以讓人知道各個資料結構如何操作，下方操作欄可以在教學時提醒如何使用 然後各部分提示應該不需要每次都提醒",
+          "aspect_spans": [
+            {
+              "start": 23,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 32,
+              "end": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "提示",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "執行動畫可以讓人知道各個資料結構如何操作，下方操作欄可以在教學時提醒如何使用 然後各部分提示應該不需要每次都提醒",
+          "aspect_spans": [
+            {
+              "start": 44,
+              "end": 46
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 48,
+              "end": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不需要每次都提醒",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "執行動畫可以讓人知道各個資料結構如何操作，下方操作欄可以在教學時提醒如何使用 然後各部分提示應該不需要每次都提醒",
+          "aspect_spans": [
+            {
+              "start": 44,
+              "end": 46
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 48,
+              "end": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "按鈕",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "視覺化呈現，Ui 有些按鈕和背景融為一體了",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "背景",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "視覺化呈現，Ui 有些按鈕和背景融為一體了",
+          "aspect_spans": [
+            {
+              "start": 14,
+              "end": 16
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 16,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "手機版",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "動畫，手機版",
+          "aspect_spans": [
+            {
+              "start": 3,
+              "end": 6
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "觀感",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 102,
+              "end": 104
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 105,
+              "end": 108
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不好",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 102,
+              "end": 104
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 105,
+              "end": 108
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "視覺化",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "視覺化的圖表和動畫，剛打開平台時，有點不知道該從哪裡開始",
+          "aspect_spans": [
+            {
+              "start": 4,
+              "end": 6
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不知道該從哪裡開始",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "視覺化的圖表和動畫，剛打開平台時，有點不知道該從哪裡開始",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 28
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

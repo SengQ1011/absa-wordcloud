@@ -1,0 +1,307 @@
+{
+  "title": "CodePulse — 系統效能",
+  "aspect": "PERFORMANCE",
+  "label": "系統效能",
+  "words": [
+    {
+      "word": "提交",
+      "font_size": 2,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 2
+      },
+      "reviews": [
+        {
+          "text": "對於演算法中較為抽象的部分，確實能加快理解還有測驗可以驗證你是否理解，有時候會有提交失敗的問題,不確定是否為學校網路在搞",
+          "aspect_spans": [
+            {
+              "start": 40,
+              "end": 42
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 42,
+              "end": 44
+            }
+          ]
+        },
+        {
+          "text": "答題秒數多寡會有不同的意見，像我在答題途中填了問卷掛一題掛太久，或我答很快的情況會有不同的標語，會有提交失敗，失敗後我的紀錄有不見的情況",
+          "aspect_spans": [
+            {
+              "start": 50,
+              "end": 52
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 52,
+              "end": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "失敗",
+      "font_size": 2,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 2
+      },
+      "reviews": [
+        {
+          "text": "對於演算法中較為抽象的部分，確實能加快理解還有測驗可以驗證你是否理解，有時候會有提交失敗的問題,不確定是否為學校網路在搞",
+          "aspect_spans": [
+            {
+              "start": 40,
+              "end": 42
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 42,
+              "end": 44
+            }
+          ]
+        },
+        {
+          "text": "答題秒數多寡會有不同的意見，像我在答題途中填了問卷掛一題掛太久，或我答很快的情況會有不同的標語，會有提交失敗，失敗後我的紀錄有不見的情況",
+          "aspect_spans": [
+            {
+              "start": 50,
+              "end": 52
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 52,
+              "end": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "整體",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
+          "aspect_spans": [
+            {
+              "start": 17,
+              "end": 19
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 21,
+              "end": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "流暢",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
+          "aspect_spans": [
+            {
+              "start": 17,
+              "end": 19
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 21,
+              "end": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "學習紀錄",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "保有學習紀錄",
+          "aspect_spans": [
+            {
+              "start": 2,
+              "end": 6
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "保有",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "保有學習紀錄",
+          "aspect_spans": [
+            {
+              "start": 2,
+              "end": 6
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "反應時間",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 22,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 30,
+              "end": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "卡",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 22,
+              "end": 26
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 30,
+              "end": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "紀錄",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "答題秒數多寡會有不同的意見，像我在答題途中填了問卷掛一題掛太久，或我答很快的情況會有不同的標語，會有提交失敗，失敗後我的紀錄有不見的情況",
+          "aspect_spans": [
+            {
+              "start": 60,
+              "end": 62
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 63,
+              "end": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不見",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "答題秒數多寡會有不同的意見，像我在答題途中填了問卷掛一題掛太久，或我答很快的情況會有不同的標語，會有提交失敗，失敗後我的紀錄有不見的情況",
+          "aspect_spans": [
+            {
+              "start": 60,
+              "end": 62
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 63,
+              "end": 65
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

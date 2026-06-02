@@ -1,0 +1,201 @@
+{
+  "title": "CodePulse — 遊戲化互動",
+  "aspect": "GAMIFICATION",
+  "label": "遊戲化互動",
+  "words": [
+    {
+      "word": "有趣",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "小彩蛋很有趣！",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "很有趣",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "新奇",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "很新奇，有點太單調",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "彩蛋",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "小彩蛋很有趣！",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Manual Sort",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 11
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 11,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "很好玩",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 11
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 11,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "打地鼠遊戲",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 5,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "幽默風趣",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 5,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

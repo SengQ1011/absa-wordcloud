@@ -1,0 +1,673 @@
+{
+  "title": "CodePulse — 測驗系統",
+  "aspect": "QUIZ",
+  "label": "測驗系統",
+  "words": [
+    {
+      "word": "錯誤檢測",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "錯誤檢測讓人能迅速發現錯誤，新手教學指引有點不太明確 玩到後面才看懂一些",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 13
+            }
+          ]
+        },
+        {
+          "text": "錯誤檢測讓我更清楚知道我自己不擅長的部分，指引有一點點不太明確",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "詳解",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 12
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 12,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 12
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "題目",
+      "font_size": 2,
+      "color": "rgb(183,182,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "整體介面清楚好懂，答案解析也非常好懂，題目有點看不懂",
+          "aspect_spans": [
+            {
+              "start": 19,
+              "end": 21
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 23,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "text": "讓艱深難懂的題目變得容易理解，很不錯！，推出學習課程",
+          "aspect_spans": [
+            {
+              "start": 6,
+              "end": 8
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 10,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "測驗",
+      "font_size": 2,
+      "color": "rgb(183,182,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "有動畫演示，只理解到演算法之執行 測驗時不知道某些內容 類似：0（1）",
+          "aspect_spans": [
+            {
+              "start": 17,
+              "end": 19
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 20,
+              "end": 23
+            }
+          ]
+        },
+        {
+          "text": "對於演算法中較為抽象的部分，確實能加快理解還有測驗可以驗證你是否理解，有時候會有提交失敗的問題,不確定是否為學校網路在搞",
+          "aspect_spans": [
+            {
+              "start": 23,
+              "end": 25
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "迅速發現錯誤",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "錯誤檢測讓人能迅速發現錯誤，新手教學指引有點不太明確 玩到後面才看懂一些",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "解釋得很清楚",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 12
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 12,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "容易懂",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "作答到最後結果出來的詳解解釋得很清楚，容易懂，教學模式的地方第一次點開時會看不懂怎麼操作，需要花一些時間理解",
+          "aspect_spans": [
+            {
+              "start": 10,
+              "end": 12
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "答案解析",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "整體介面清楚好懂，答案解析也非常好懂，題目有點看不懂",
+          "aspect_spans": [
+            {
+              "start": 9,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 14,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "非常好懂",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "整體介面清楚好懂，答案解析也非常好懂，題目有點看不懂",
+          "aspect_spans": [
+            {
+              "start": 9,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 14,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "看不懂",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "整體介面清楚好懂，答案解析也非常好懂，題目有點看不懂",
+          "aspect_spans": [
+            {
+              "start": 19,
+              "end": 21
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 23,
+              "end": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "清楚",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "錯誤檢測讓我更清楚知道我自己不擅長的部分，指引有一點點不太明確",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "不知道",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "有動畫演示，只理解到演算法之執行 測驗時不知道某些內容 類似：0（1）",
+          "aspect_spans": [
+            {
+              "start": 17,
+              "end": 19
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 20,
+              "end": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "測",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "可以重複測",
+          "aspect_spans": [
+            {
+              "start": 4,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "重複",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "可以重複測",
+          "aspect_spans": [
+            {
+              "start": 4,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "考卷",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "使用順暢 功能齊全，寫考卷可能會有答案是對的但成績出來是錯的",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 23,
+              "end": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "成績出來是錯的",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "使用順暢 功能齊全，寫考卷可能會有答案是對的但成績出來是錯的",
+          "aspect_spans": [
+            {
+              "start": 11,
+              "end": 13
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 23,
+              "end": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "難度",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 15,
+              "end": 17
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "有點高",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "Manual Sort很好玩，難度還是有點高，看看能不能做更簡單更基礎的程式之類的?",
+          "aspect_spans": [
+            {
+              "start": 15,
+              "end": 17
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 19,
+              "end": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "容易理解",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "讓艱深難懂的題目變得容易理解，很不錯！，推出學習課程",
+          "aspect_spans": [
+            {
+              "start": 6,
+              "end": 8
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 10,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "測驗送出",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 12,
+              "end": 16
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 18,
+              "end": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "更即時的反應",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 12,
+              "end": 16
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 18,
+              "end": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "驗證理解",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "對於演算法中較為抽象的部分，確實能加快理解還有測驗可以驗證你是否理解，有時候會有提交失敗的問題,不確定是否為學校網路在搞",
+          "aspect_spans": [
+            {
+              "start": 23,
+              "end": 25
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    },
+    {
+      "word": "答題",
+      "font_size": 1,
+      "color": "rgb(183,55,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 0,
+        "neg": 1
+      },
+      "reviews": [
+        {
+          "text": "答題秒數多寡會有不同的意見，像我在答題途中填了問卷掛一題掛太久，或我答很快的情況會有不同的標語，會有提交失敗，失敗後我的紀錄有不見的情況",
+          "aspect_spans": [
+            {
+              "start": 0,
+              "end": 2
+            }
+          ],
+          "opinion_spans": []
+        }
+      ]
+    }
+  ]
+}

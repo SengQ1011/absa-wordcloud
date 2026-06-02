@@ -1,0 +1,265 @@
+{
+  "title": "CodePulse — 遊戲化互動",
+  "aspect": "GAMIFICATION",
+  "label": "遊戲化互動",
+  "words": [
+    {
+      "word": "有趣",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "小彩蛋很有趣！",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "很有趣",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "遊戲",
+      "font_size": 2,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 2,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 3,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 3,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "新奇",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "很新奇，有點太單調",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "彩蛋",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "小彩蛋很有趣！",
+          "aspect_spans": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 4,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "好",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "超級好",
+          "aspect_spans": [],
+          "opinion_spans": [
+            {
+              "start": 2,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "幽默",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 3,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 5,
+              "end": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "風趣",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "打地鼠遊戲幽默風趣，希望測驗送出時有更即時的反應時間，現在會卡",
+          "aspect_spans": [
+            {
+              "start": 3,
+              "end": 5
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 7,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "沙箱",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "aspect",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 57,
+              "end": 59
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 54,
+              "end": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "直觀",
+      "font_size": 1,
+      "color": "rgb(57,183,55)",
+      "term_type": "opinion",
+      "word_sentiment": {
+        "pos": 1,
+        "neg": 0
+      },
+      "reviews": [
+        {
+          "text": "用動畫的方式呈現很特別也很有趣，演算法實驗室的時間複雜度 或許可以讓他們同時顯示而不是一個一個跑 這樣感覺更直觀\n沙箱的圖示動畫透過高低變化來顯示不同資料是個不錯的想法，但在4倍速下 動畫就有點跟不太上 觀感上不太好",
+          "aspect_spans": [
+            {
+              "start": 57,
+              "end": 59
+            }
+          ],
+          "opinion_spans": [
+            {
+              "start": 54,
+              "end": 56
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

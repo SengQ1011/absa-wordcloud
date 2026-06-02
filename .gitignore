@@ -1,0 +1,10 @@
+.env
+*.json
+!*_data*.json
+*.png
+*.csv
+*.xlsx
+*.md
+*.code-workspace
+*.pyc
+*.pdf
