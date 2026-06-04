@@ -1,0 +1,27 @@
+# ABSA Pipeline Dependencies
+# Python 3.14.0
+
+# NLP — tokenization & parsing
+ckip-transformers==0.3.4
+stanza==1.12.1
+
+# NLP — embeddings & classification
+sentence-transformers==5.4.1
+transformers==5.3.0
+torch==2.11.0
+
+# Data processing
+pandas==3.0.2
+numpy==2.3.5
+openpyxl==3.1.5
+
+# Machine learning utilities
+scikit-learn==1.8.0
+
+# Gemini API (Track B)
+google-genai==2.6.0
+python-dotenv==1.2.2
+
+# Visualization
+matplotlib==3.10.9
+seaborn==0.13.2
