@@ -452,60 +452,6 @@
       ]
     },
     {
-      "word": "問題",
-      "font_size": 1,
-      "color": "rgb(183,55,55)",
-      "term_type": "aspect",
-      "word_sentiment": {
-        "pos": 0,
-        "neg": 1
-      },
-      "reviews": [
-        {
-          "text": "對於演算法中較為抽象的部分，確實能加快理解還有測驗可以驗證你是否理解，有時候會有提交失敗的問題,不確定是否為學校網路在搞",
-          "aspect_spans": [
-            {
-              "start": 45,
-              "end": 47
-            }
-          ],
-          "opinion_spans": [
-            {
-              "start": 42,
-              "end": 44
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "word": "失敗",
-      "font_size": 1,
-      "color": "rgb(183,55,55)",
-      "term_type": "opinion",
-      "word_sentiment": {
-        "pos": 0,
-        "neg": 1
-      },
-      "reviews": [
-        {
-          "text": "對於演算法中較為抽象的部分，確實能加快理解還有測驗可以驗證你是否理解，有時候會有提交失敗的問題,不確定是否為學校網路在搞",
-          "aspect_spans": [
-            {
-              "start": 45,
-              "end": 47
-            }
-          ],
-          "opinion_spans": [
-            {
-              "start": 42,
-              "end": 44
-            }
-          ]
-        }
-      ]
-    },
-    {
       "word": "題",
       "font_size": 1,
       "color": "rgb(57,183,55)",

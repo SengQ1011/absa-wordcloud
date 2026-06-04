@@ -511,12 +511,12 @@ async function load(src) {
 
 // ── track switcher ───────────────────────────────────────────
 const FILE_MAP = {
-  a: { ui_ux: "ui_ux_data.json", animation: "animation_data.json",
-       content: "content_data.json", quiz: "quiz_data.json",
-       performance: "performance_data.json", gamification: "gamification_data.json" },
-  b: { ui_ux: "ui_ux_data_b.json", animation: "animation_data_b.json",
-       content: "content_data_b.json", quiz: "quiz_data_b.json",
-       performance: "performance_data_b.json", gamification: "gamification_data_b.json" },
+  a: { ui_ux: "viewer/ui_ux_data_a.json", animation: "viewer/animation_data_a.json",
+       content: "viewer/content_data_a.json", quiz: "viewer/quiz_data_a.json",
+       performance: "viewer/performance_data_a.json", gamification: "viewer/gamification_data_a.json" },
+  b: { ui_ux: "viewer/ui_ux_data_b.json", animation: "viewer/animation_data_b.json",
+       content: "viewer/content_data_b.json", quiz: "viewer/quiz_data_b.json",
+       performance: "viewer/performance_data_b.json", gamification: "viewer/gamification_data_b.json" },
 };
 
 let currentTrack = "a";

@@ -683,28 +683,6 @@
       ]
     },
     {
-      "word": "多",
-      "font_size": 1,
-      "color": "rgb(57,183,55)",
-      "term_type": "opinion",
-      "word_sentiment": {
-        "pos": 1,
-        "neg": 0
-      },
-      "reviews": [
-        {
-          "text": "簡單明瞭 數據分析的圖表很好看  整體都很流暢，希望可以多更多東西  有更細的講解",
-          "aspect_spans": [],
-          "opinion_spans": [
-            {
-              "start": 28,
-              "end": 29
-            }
-          ]
-        }
-      ]
-    },
-    {
       "word": "不會複雜",
       "font_size": 1,
       "color": "rgb(57,183,55)",
@@ -824,28 +802,6 @@
             {
               "start": 3,
               "end": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "word": "好",
-      "font_size": 1,
-      "color": "rgb(57,183,55)",
-      "term_type": "opinion",
-      "word_sentiment": {
-        "pos": 1,
-        "neg": 0
-      },
-      "reviews": [
-        {
-          "text": "頂級、完善，可以再更好",
-          "aspect_spans": [],
-          "opinion_spans": [
-            {
-              "start": 10,
-              "end": 11
             }
           ]
         }

@@ -132,28 +132,6 @@
       ]
     },
     {
-      "word": "好",
-      "font_size": 1,
-      "color": "rgb(57,183,55)",
-      "term_type": "opinion",
-      "word_sentiment": {
-        "pos": 1,
-        "neg": 0
-      },
-      "reviews": [
-        {
-          "text": "超級好",
-          "aspect_spans": [],
-          "opinion_spans": [
-            {
-              "start": 2,
-              "end": 3
-            }
-          ]
-        }
-      ]
-    },
-    {
       "word": "幽默",
       "font_size": 1,
       "color": "rgb(57,183,55)",

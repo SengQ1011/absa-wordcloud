@@ -1,10 +1,21 @@
+# Credentials — never commit
 .env
-*.json
-!*_data*.json
-*.png
+
+# Python runtime
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pipeline artifacts (re-run to regenerate)
+cache/
+output/
+reports/
+history/
+docs/
+
 *.csv
 *.xlsx
-*.md
-*.code-workspace
-*.pyc
-*.pdf
+
+Project.code-workspace
+MEMORY.md
